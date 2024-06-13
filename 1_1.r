@@ -1,0 +1,6 @@
+age <- c(5, 15, 20, 50, 80, 110)
+frequency <- c(200, 450, 300, 1500, 700, 44)
+median_age <- median(age)
+median_frequency <- median(frequency)
+cat("Median Age:", median_age, "\n")
+cat("Median Frequency:", median_frequency)

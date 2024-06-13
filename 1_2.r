@@ -1,0 +1,13 @@
+age <- c(13, 15, 16, 16, 19, 20, 20, 21, 22, 22, 25, 25, 25, 25, 30, 33, 33, 35, 35, 35, 35, 36, 40, 45, 46, 52, 70)
+mean_age <- mean(age)
+median_age <- median(age)
+mode_age <- names(table(age))[table(age) == max(table(age))]
+range_age <- range(age)
+q1_age <- quantile(age, 0.25)
+q3_age <- quantile(age, 0.75)
+cat("Mean Age:", mean_age, "\n")
+cat("Median Age:", median_age, "\n")
+cat("Mode Age:", mode_age, "\n")
+cat("Range of Ages:", range_age[1], "-", range_age[2], "\n")
+cat("First Quartile:", q1_age, "\n")
+cat("Third Quartile:", q3_age)
